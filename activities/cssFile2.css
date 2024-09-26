@@ -1,0 +1,14 @@
+main p{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+footer p{
+    color: aquamarine;
+}
+
+header h1{
+    color: blue;
+}
