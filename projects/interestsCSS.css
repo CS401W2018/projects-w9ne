@@ -1,0 +1,43 @@
+main h2{
+    color: blueviolet;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:lighter;
+    font-size: x-large;
+}
+
+body {
+    background-color: #cfcff8;
+}
+
+ul li{
+    color: black;
+}
+
+footer p{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+main p {
+    color: rgb(159, 125, 40);
+}
+
+header h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rebeccapurple;
+}
+
+main h2{
+    color: rgb(197, 20, 197);
+    font-size: x-large;
+}
+
+dl dt {
+    color:goldenrod;
+    font-weight: bolder;
+}
+
+dl dd {
+    color:rgb(20, 21, 21);
+    font-weight: lighter;
+}
