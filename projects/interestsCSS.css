@@ -1,43 +1,28 @@
-main h2{
-    color: blueviolet;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight:lighter;
-    font-size: x-large;
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #170063;
+    background-color: #fbfbff;
+    font-size: large;
 }
 
-body {
-    background-color: #cfcff8;
+body h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #170063
 }
 
-ul li{
-    color: black;
+body h2 {
+   color: #c67409;
 }
 
-footer p{
-    color: rgb(0, 0, 0);
-    font-style: italic;
+.emphasize {
+    color: #c67409;
+
 }
 
-main p {
-    color: rgb(159, 125, 40);
+.deemphasize {
+    color: #5f2fbd;
 }
 
-header h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rebeccapurple;
-}
-
-main h2{
-    color: rgb(197, 20, 197);
-    font-size: x-large;
-}
-
-dl dt {
-    color:goldenrod;
-    font-weight: bolder;
-}
-
-dl dd {
-    color:rgb(20, 21, 21);
-    font-weight: lighter;
+#main-cast{
+    color: #4a21ff;
 }
