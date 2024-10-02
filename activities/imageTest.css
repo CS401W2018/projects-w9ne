@@ -1,0 +1,14 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: beige;
+    color: brown;
+}
+/* 
+#skatePic {
+    width: 680px;
+} */
+
+.questions {
+    color: black;
+    font-size: medium;
+}
