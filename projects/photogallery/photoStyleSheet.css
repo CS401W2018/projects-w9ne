@@ -1,0 +1,24 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: url(batikcover.png);    
+}
+
+nav a{
+    color: #fff202;
+}
+
+.current {
+    color: rgb(91, 218, 240);
+}
+
+main h3 {
+    color: rgb(0, 251, 255);
+    font-weight: bold;
+}
+
+header {
+    background-image: url(flag.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
