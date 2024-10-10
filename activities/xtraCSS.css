@@ -1,0 +1,19 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: maroon;
+    background-color: blanchedalmond;
+}
+
+#pic1 {
+    width: 180;
+    border: 5px solid maroon;
+    float: right;
+}
+
+#pic1 img {
+    width: 180;
+}
+
+.clear {
+    clear: both;
+}
