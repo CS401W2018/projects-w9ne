@@ -8,6 +8,7 @@ body {
     width: 180;
     border: 5px solid maroon;
     float: right;
+    position: relative;
 }
 
 #pic1 img {
