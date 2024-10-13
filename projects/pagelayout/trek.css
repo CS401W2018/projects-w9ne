@@ -1,0 +1,69 @@
+body {
+    font-family: fantasy;
+    background: center no-repeat url(galaxy.png);
+    background-color: rgb(22, 42, 73);
+    color: rgb(255, 255, 255);
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+}
+
+header {
+    width: 350px;
+    height: 80px;
+    border: thick solid rgb(247, 182, 5);
+    border-radius: 20px;
+    margin: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a{
+    display:block;
+    padding: 10px 10px;
+    float: left;
+    background-color: rgb(7, 156, 255);
+    color: rgb(222, 193, 26);
+    border: thin solid rgb(15, 49, 241);
+}
+
+nav a:hover{
+    color:rgb(255, 165, 21);
+    background-color: rgb(14, 70, 213);
+}
+
+#ship{
+    width: 250px;
+    height: 415px;
+    border: thick solid rgb(255, 165, 21);
+    float:left;
+    text-align: center;
+}
+
+#ship img {
+    width: 250px;
+}
+
+main p {
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.badge {
+    height:30px;
+    background: right no-repeat url(starFleet.png);
+}
+
+.clear {
+    clear: both;
+}
