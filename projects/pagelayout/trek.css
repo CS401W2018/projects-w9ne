@@ -3,22 +3,31 @@ body {
     background: center no-repeat url(galaxy.png);
     background-color: rgb(7, 23, 47);
     color: rgb(255, 255, 255);
-    margin: auto;
-    width: 640px; 
+    width: 800px; 
     padding: 50px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 2px black;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 800px;
 }
 
 header {
-    width: 350px;
+    width: 370px;
     height: 80px;
+    text-shadow:  1px 2px black;
+    text-transform: uppercase;
     border: thick solid rgb(247, 182, 5);
     border-radius: 20px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 20px;
+    margin: 0 auto;
+    margin-top: 25px;
     padding: 0px;
 }
 
@@ -46,6 +55,7 @@ nav a:hover{
     width: 250px;
     height: 415px;
     border: thick solid rgb(255, 165, 21);
+    box-shadow:1px 1px 2px black;
     float:left;
     text-align: center;
 }
@@ -56,12 +66,17 @@ nav a:hover{
 
 main p {
     font-size: larger;
+    font-weight:bolder;
+    font-style: italic;
+    line-height: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .badge {
     height:30px;
     background: right no-repeat url(starFleet.png);
+    background-origin: content-box;
+    background-clip: content-box;
 }
 
 .clear {
