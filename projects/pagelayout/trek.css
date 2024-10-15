@@ -77,11 +77,16 @@ main p {
     margin-right: 10px;
 }
 
+footer {
+    padding: 10px;
+}
+
 .badge {
-    height:30px;
+    height: 30px;
     background: right no-repeat url(starFleet.png);
     background-origin: content-box;
     background-clip: content-box;
+    padding: 10px;
 }
 
 .clear {
