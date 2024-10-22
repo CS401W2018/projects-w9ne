@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+}
+
+.classLayout {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: 
+    "header header header header"
+    "Nav Nav Nav Nav"
+    "leftCol main main main"
+    "footer footer footer footer"
+}
+
+header {
+    grid-area: header;
+    background-color: brown;
+    text-align: center;
+}
+
+nav {
+    grid-area: Nav;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: #eea352;
+    padding: 5px;
+}
+
+nav a:hover {background-color: brown; color: white;}
+
+nav a {
+    display: block;
+    font-size: large;
+    color: black;
+    padding: 5px 15px;
+}
+
+.leftCol {grid-area: leftCol;  font-style: italic;}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+main {
+    grid-area: main;
+    flex-flow: row wrap;
+    gap: 60px;  
+}
+
+.photo {
+    font-style: italic;
+    width: 200px;
+    margin-left: 20px;
+    box-shadow: 1px 1px 2px 1px rgb(233, 192, 123);
+}
+
+.photoA {grid-area: header1;}
+
+.photoB {grid-area: main1;}
+
+.photoC {grid-area: main2;}
+
+.photoD {grid-area: main3;}
+
+.photoE {grid-area: main1;}
+
+.photoF {grid-area: header3;}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+    margin-top: 40px;
+}
+
+footer {
+    grid-area: footer;
+    margin-left: 10px;
+}
+
