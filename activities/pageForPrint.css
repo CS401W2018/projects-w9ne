@@ -1,0 +1,48 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+    margin: 0;
+}
+.row{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header{
+    background-color: rgb(181, 101, 69);
+    text-align: center;
+    color: white;
+}
+header h1{
+    margin: 0;
+}
+.pic{
+    width: 500px;
+    background-color: white;
+    border: thin solid black;
+    box-shadow: 3px 3px 5cm rgba(50, 50, 50,50%);
+    margin: 5px;
+}
+
+nav {display: none;}
+
+nav a:hover {
+    background-color: brown;
+    color: blue;
+}
+
+nav{
+    background-color: rgb(253, 169, 91);
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    display: block;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+.pic img{
+    width: 100%;
+}
