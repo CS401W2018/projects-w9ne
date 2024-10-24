@@ -19,9 +19,8 @@ header h1{
 }
 .pic{
     width: 500px;
-    background-color: white;
     border: thin solid black;
-    box-shadow: 3px 3px 5cm rgba(50, 50, 50,50%);
+    box-shadow: 3px 3px 10cm rgba(50, 50, 50,50%);
     margin: 5px;
 }
 

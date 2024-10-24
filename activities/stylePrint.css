@@ -19,9 +19,8 @@ header h1{
 }
 .pic{
     width: 500px;
-    background-color: white;
-    border: thin solid black;
-    box-shadow: 3px 3px 5cm rgba(50, 50, 50,50%);
+    border: thick solid black;
+    box-shadow: 3px 3px 10cm rgba(50, 50, 50,50%);
     margin: 5px;
 }
 
@@ -29,7 +28,6 @@ nav a:hover {
     background-color: brown;
     color: blue;
 }
-
 
 nav{
     background-color: rgb(253, 169, 91);
