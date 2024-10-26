@@ -24,6 +24,21 @@ header h1{
     margin: 5px;
 }
 
+@media only screen and (max-width: 700px) {
+    nav {
+        flex-direction: row;
+    }
+
+    nav a {
+        color: black;
+        border-bottom: thin solid;
+    }
+
+    .middle {
+        order: -1
+    }
+}
+
 nav a:hover {
     background-color: brown;
     color: blue;
