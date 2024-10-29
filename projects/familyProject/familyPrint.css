@@ -4,6 +4,7 @@ body{
 }
 
 nav {display: none;}
+nav a {display: none;}
 header {display: none;}
 footer {display: none;}
 
