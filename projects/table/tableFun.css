@@ -1,0 +1,112 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main {
+    padding: 20px;
+}
+
+.mainArea {
+    grid-area: main;
+    margin-top: 50px;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+    background-color: blanchedalmond;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 1px;
+}
+
+nav a {
+    display: block;
+    text-decoration: underline;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.tableClass {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: 
+    "header header header header"
+    "Nav Nav Nav Nav"
+    "leftCol main main main"
+    "footer footer1 footer2 footer3"
+}
+
+.leftCol {
+    grid-area: leftCol;
+    display: flex;
+    flex-direction: column;
+    border: thin solid black;
+    margin: 10px;
+}
+
+caption {
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(128, 69, 6);
+    background-color: blanchedalmond;
+    border: thin solid black;
+}
+
+.table {
+    margin: 5px auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: thin solid black;
+}
+
+.table thead {
+    background-color: brown;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    border: thin solid black;
+}
+
+.table tbody tr:nth-child(even){
+    background-color: rgb(255, 254, 205);
+    border: thin solid black;
+}
+
+.table tbody td {
+    border: thin solid black;
+}
+
+.table tbody th {
+    font-size: large;
+    font-weight: bolder;
+    background-color: cadetblue;
+}
+
+.table tfoot {
+    background-color:rgb(255, 221, 0);
+    color: black;
+    border: thin solid black;
+}
+
+.table tfoot td {
+    color: rgb(85, 0, 255);
+    font-weight: bold;
+    border: thin solid black;
+}
+
+footer {
+    font-weight: bolder;
+    grid-area: footer;
+}
