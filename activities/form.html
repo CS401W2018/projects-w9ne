@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+    </header>
+    <main>
+        <form action="processing.html" method="post">
+            First Name: <input type="text" name="first" value="Jared" required><br>
+            Last Name: <input type="text" name="last" placeholder="Last Name"><br>
+            User Name: <input type="text" name="username" placeholder="User Name"><br>
+            Password: <input type="password" name="pass"><br>
+            <input type="checkbox" name="remember" checked> Remember Me<br>
+            <br>
+            Grade: <br>
+            <input type="radio" name="grade" value="Freshman"> Freshman<br>
+            <input type="radio" name="grade" value="Sophomore"> Sophomore<br>
+            <input type="radio" name="grade" value="Junior"> Junior<br>
+            <input type="radio" name="grade" value="Senior"> Senior<br>
+            <br>
+            Select State : <br>
+            <select name="state" id="state">
+                <option value="blank"></option>
+                <option value="Hawaii">Hawaii</option>
+                <option value="Michigan">Michigan</option>
+                <option value="New York">New York</option>
+                <option value="Chicago">Chicago</option>
+            </select><br>
+            <textarea name="comment" id="" placeholder="Enter your comments here..."></textarea><br>
+            <input type="submit">
+        </form>
+
+        <h3>Engagement</h3>
+        <p>1. The "action" attribute allows the user to input information which is then put into a place of processing</p>
+        <p>2. The "method" attribute is how data is tranmitted to the server, through HTTP</p>
+        <p>3. POST is for confidentiality and privacy, GET allows for searching for information within the site.</p>
+    </main>
+    <footer>
+        <p>&copy; Wong Wai Keat 2024</p>
+    </footer>
+</body>
+</html>
