@@ -13,8 +13,8 @@ form {
 }
 
 fieldset{
-    box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.5);
-    background-color: antiquewhite;
+    box-shadow: 5px 5px 3px rgba(50, 50, 50, 0.5);
+    background-color: rgb(252, 210, 155);
 }
 
 .form-row{
