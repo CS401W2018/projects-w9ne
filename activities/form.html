@@ -11,12 +11,28 @@
         <h1>My Website</h1>
     </header>
     <main>
+        <fieldset>
         <form action="processing.html" method="post">
+            <div for="form-row">
             First Name: <input type="text" name="first" value="Jared" required><br>
+            </div>
+
+            <div for="form-row">
             Last Name: <input type="text" name="last" placeholder="Last Name"><br>
+            </div>
+
+            <div for="form-row">
             User Name: <input type="text" name="username" placeholder="User Name"><br>
+            </div>
+            
+            <div for="form-row">
             Password: <input type="password" name="pass"><br>
+            </div>
+            
+            <div for = "check-row">
             <input type="checkbox" name="remember" checked> Remember Me<br>
+            </div>
+
             <br>
             Semester: <br>
             <input type="radio" name="grade" value="Freshman"> Freshman<br>
@@ -35,11 +51,16 @@
             <textarea name="comment" id="" placeholder="Enter your comments here..."></textarea><br>
             <input type="submit">
         </form>
+    </fieldset>
 
-        <h3>Engagement</h3>
-        <p>1. The "action" attribute allows the user to input information which is then put into a place of processing</p>
-        <p>2. The "method" attribute is how data is tranmitted to the server, through HTTP</p>
-        <p>3. POST is for confidentiality and privacy, GET allows for searching for information within the site.</p>
+    <h3>Engamgenent</h3>
+    <p>1. To style our forms, we can use css to change the ways we present our forms, we can use fieldset to make
+        big boxes and we can create row setters and checkboxes </p>
+    <p>2. The professor likes to use flex because it automatically adjusts nicely to different ratio screens and
+        fits well into different sizes
+    </p>
+
+
     </main>
     <footer>
         <p>&copy; Wong Wai Keat 2024</p>

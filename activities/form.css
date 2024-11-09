@@ -11,3 +11,41 @@ p {
 form {
     color: black;
 }
+
+fieldset{
+    box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.5);
+    background-color: antiquewhite;
+}
+
+.form-row{
+    display: flex;
+    gap: 10px;
+}
+
+.check-row{
+    display: flex;
+}
+
+.form-row label {
+    width: 150px;
+    text-align: right;
+}
+
+.spacer {
+    width: 150px;
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px){
+    .form-row, .check-row{
+        flex-direction: column;
+    }
+
+    .form-row label{
+        text-align: left;
+    }
+
+    .spacer{
+        text-align: left;
+    }
+}
