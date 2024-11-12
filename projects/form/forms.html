@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Creds</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <header>
+        <h1>Login to myForums</h1>
+    </header>
+    <main>  
+        <form action="processing.html" method="post">  
+        <fieldset>
+            <legend>Login Info</legend>
+            
+            <div class= "form-row">
+                <label for="emailInput">Email:</label>
+                <input type="email" name="email" id="emailInput" placeholder="johnDoe99@email.com">
+            </div>
+
+            <div class = "form-row">
+                <label for="userNameInput">Username :</label>
+                <input type="text" id="userNameInput" name="userName" placeholder="john_doe99">
+            </div>
+
+            <div class = "form-row">
+                <label for="passwordInput">Password :</label>
+                <input type="text" id="passwordInput" name="passwordInput">
+            </div>
+
+            <div class = "check-row">
+                <div class = "spacer"></div>
+                <label for="rememberMeInput"><input type="checkbox" id="rememberMeInput" name="rememmberMe">Remember me?</label>
+            </div>
+
+            <div class="check-row">
+                <div class="spacer">Share your thoughts :</div>
+                <textarea name="comment" placeholder="Something you want to share..."></textarea>
+                <input type="submit" value="Submit">
+            </div>
+
+            <div class = "form-row">
+                <div class="spacer">Continent :</div>
+                <label for="asia">
+                    <input type="radio" id="asia" name="continentInput" value="Asia"> Asia
+                </label>
+                <label for="america">
+                    <input type="radio" id="america" name="continentInput" value="America"> America
+                </label>
+                <label for="europe">
+                    <input type="radio" id="europe" name="continentInput" value="Europe"> Europe
+                </label>
+                <label for="australia">
+                    <input type="radio" id="australia" name="continentInput" value="Australia"> Australia
+                </label>
+            </div>
+
+            <div class = "form-row">
+                <label for="clubJoinInput">Join a Club :</label>
+                <select name="clubJoinInput" id="clubJoinInput">
+                    <option value="-">-</option>
+                    <option value="PickleBall Club">Pickleball Club</option>
+                    <option value="Basketball Club">Basketball Club</option>
+                    <option value="Football Club">Football Club</option>
+                    <option value="Baseball Club">Baseball Club</option>
+                    <option value="FootBall Club">Soccer Club</option>
+                </select>
+            </div>
+
+            <div class = "form-row">
+                <label for="schoolInput">Finished School :</label>
+                <select name="schoolInput" id="schoolInput">
+                    <option value="-">-</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+        </fieldset>
+        </form>
+    </main>
+</body>
+</html>
