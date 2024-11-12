@@ -2,6 +2,7 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(205, 237, 255);
     color: rgb(9, 18, 133);
+    text-align: center;
 }
 
 header {
