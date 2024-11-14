@@ -52,15 +52,32 @@
             <input type="submit">
         </form>
     </fieldset>
+    
+    <h4>Engagement</h4>
+    <p>1. JavaScript is a language that is typically used for front-end coding, usually on websites</p>
+    <p>2. We can use virtual machines (like the one we have right) and also used DOMs or Document Object Module</p>
+    <p>3. Node.js was the most popular library at the time.</p>
+    <p>4. JQuery is the most popular library right now. </p>
+    <p>React-Native</p>
 
-    <h3>Engamgenent</h3>
-    <p>1. To style our forms, we can use css to change the ways we present our forms, we can use fieldset to make
-        big boxes and we can create row setters and checkboxes </p>
-    <p>2. The professor likes to use flex because it automatically adjusts nicely to different ratio screens and
-        fits well into different sizes
-    </p>
-
-
+</main>
+    <script>
+        document.getElementById('myForm').addEventListener('submit',function(event){
+            event.preventDefault();
+            const firstName = document.getElementById('firstName').value;
+            const lastName = document.getElementById('lastName').value;
+            const formData ={
+                firstName: firstName,
+                lastName: lastName
+            }
+            if (!firstName || !lastName) {
+                alert("First name and last name required");
+                return;
+            }
+            console.log(formData)
+            alert("You submitted the form!");
+        })
+    </script>
     </main>
     <footer>
         <p>&copy; Wong Wai Keat 2024</p>
