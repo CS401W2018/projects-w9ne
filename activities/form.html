@@ -54,30 +54,15 @@
     </fieldset>
     
     <h4>Engagement</h4>
-    <p>1. JavaScript is a language that is typically used for front-end coding, usually on websites</p>
-    <p>2. We can use virtual machines (like the one we have right) and also used DOMs or Document Object Module</p>
-    <p>3. Node.js was the most popular library at the time.</p>
-    <p>4. JQuery is the most popular library right now. </p>
-    <p>React-Native</p>
+    <p>1.AJAX is a way for us to incorparate Javascript and XML inside HTML and css. An example of AJAX in action is when we are 
+        clicking the submit button, it sends up a report via XML with Javascript in code
+    </p>
+    <p>2. The reason why we have a seperate file for Javascript is for visibility of the code as well as the ability to reuse our Javascript code 
+        for other files. 
+    </p>
 
 </main>
-    <script>
-        document.getElementById('myForm').addEventListener('submit',function(event){
-            event.preventDefault();
-            const firstName = document.getElementById('firstName').value;
-            const lastName = document.getElementById('lastName').value;
-            const formData ={
-                firstName: firstName,
-                lastName: lastName
-            }
-            if (!firstName || !lastName) {
-                alert("First name and last name required");
-                return;
-            }
-            console.log(formData)
-            alert("You submitted the form!");
-        })
-    </script>
+    <script src="forms.js"></script>
     </main>
     <footer>
         <p>&copy; Wong Wai Keat 2024</p>
