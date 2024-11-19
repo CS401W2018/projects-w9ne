@@ -37,8 +37,6 @@ document.getElementById('jaredForms').addEventListener('submit', function (event
         return
     }
 
-
-
     const xhr = new XMLHttpRequest();
     xhr.open("POST", "submit.json", true);
     xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
