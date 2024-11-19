@@ -21,6 +21,7 @@ fieldset{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     background-color: rgb(155, 233, 252);
     border-radius: 10px;
+    border-color: rgb(45, 60, 62);
 }
 
 legend {
@@ -28,7 +29,7 @@ legend {
     font-size: larger;
     border-radius: 10px;
     background-color: rgb(121, 210, 232);
-    box-shadow: 2px 2px rgb(63, 63, 63);
+    box-shadow: 2px 2px rgb(0, 0, 0);
     color: black;
 }
 
