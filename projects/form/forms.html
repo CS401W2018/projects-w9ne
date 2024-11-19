@@ -11,7 +11,8 @@
         <h1>Login to myForums</h1>
     </header>
     <main>  
-        <form action="processing.html" method="post">  
+        <div id="message"></div>
+        <form action="processing.html" method="post" id="jaredForms">  
         <fieldset>
             <legend>Login Info</legend>
             
@@ -27,7 +28,7 @@
 
             <div class = "form-row">
                 <label for="passwordInput">Password :</label>
-                <input type="text" id="passwordInput" name="passwordInput">
+                <input type="password" id="passwordInput" name="passwordInput">
             </div>
 
             <div class = "check-row">
@@ -37,8 +38,7 @@
 
             <div class="check-row">
                 <div class="spacer">Share your thoughts :</div>
-                <textarea name="comment" placeholder="Something you want to share..."></textarea>
-                <input type="submit" value="Submit">
+                <textarea id= "commentInput" name="comment" placeholder="Something you want to share..."></textarea>
             </div>
 
             <div class = "form-row">
@@ -77,8 +77,16 @@
                     <option value="No">No</option>
                 </select>
             </div>
+
+            <div class="form-row">
+                <input type="submit" value="Submit">
+            </div>
         </fieldset>
         </form>
     </main>
+    <script src="form.js"></script>
+    <footer>
+        <p>&copy; 2024 Wong Wai Keat</p>
+    </footer>
 </body>
 </html>
