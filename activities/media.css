@@ -1,0 +1,33 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pictureClass {
+    width: 350px;
+    margin: 10;
+    border: thin solid black;
+    box-shadow: 5px 5px 3px black;
+}
+
+#picture img {
+    width: 100px;
+}
+
+.btn {
+    display: block;
+    margin: 10px ;
+    padding: 10px;
+    color: brown;
+    background-color: rgb(155, 215, 132);
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    transition-property: background-color;
+    transition: 0.5s;
+    transition-timing-function: 0.5s ease-in-out;
+    transition-delay: 1ms;
+}
+
+.btn:hover {
+    background-color: rgb(41, 71, 243);
+}
