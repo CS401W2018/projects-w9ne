@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(10, 21, 41);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+main {
+    text-align: left;
+}
+
+p a {
+    color: rgb(160, 142, 88);
+    text-decoration: none;
+}
+
+p a:hover {
+    color: rgb(93, 220, 242);
+    text-decoration: underline;
+}
+
+nav {
+    background-color: rgb(21, 30, 57);
+    justify-content: space-around;
+    display: flex;
+    border: solid;
+    border-radius:30px;
+    border-color: rgb(45, 66, 132);
+    padding: 10px;
+    margin:10px 0;
+}
+
+nav a {
+    display:block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin:10px 0;
+}
+
+nav a:hover {
+    color: rgb(160, 142, 88);
+}
+
+.currentPage {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 750px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
+caption {
+    font-size: large;
+    font-weight: bolder;
+    padding: 15px;
+    color: rgb(10, 21, 41);
+    background-color: rgb(160, 142, 88);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: 30px;
+}
+
+.tableClass {
+    margin: 10px auto;
+    width: 80%;
+    border-spacing: 0;
+    border-collapse:collapse;
+    border: thin solid rgb(160, 142, 88);
+    border-spacing: 50px 10px;
+    text-align: center;
+}
+
+.tableClass thead {
+    font-size: large;
+    border: thin solid rgb(160, 142, 88);
+}
+
+.tableClass tbody,tfoot {
+    border: thin solid rgb(160, 142, 88);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.tableClass td,th {
+    padding: 10px;
+    border: thin solid rgb(160, 142, 88);
+}
+
+.tableClass a {
+    text-decoration: none;
+    font-size: large;
+    color:rgb(160, 142, 88);
+}
+
+.tableClass a:hover {
+    color: rgb(93, 220, 242);
+    text-decoration: underline;
+}

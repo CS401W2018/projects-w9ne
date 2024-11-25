@@ -106,6 +106,10 @@ caption {
     border: thin solid black;
 }
 
+tfoot tr td {
+    color: aqua;
+}
+
 footer {
     font-weight: bolder;
     grid-area: footer;
