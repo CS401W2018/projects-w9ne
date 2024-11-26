@@ -5,6 +5,16 @@ body {
     text-align: center;
 }
 
+.classLayout {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: 
+    "header header header header"
+    "Nav Nav Nav Nav"
+    "leftCol main main main"
+    "footer footer footer footer"
+}
+
 h2 {
     text-decoration: underline;
     text-align: center;
@@ -72,16 +82,6 @@ iframe {
     border-radius: 30px;
 }
 
-.tableClass {
-    margin: 10px auto;
-    width: 80%;
-    border-spacing: 0;
-    border-collapse:collapse;
-    border: thin solid rgb(160, 142, 88);
-    border-spacing: 50px 10px;
-    text-align: center;
-}
-
 .tableClass thead {
     font-size: large;
     border: thin solid rgb(160, 142, 88);
@@ -112,6 +112,37 @@ iframe {
 .clear{
     clear:both;
 }
+
+.mainP {
+    font-size: larger;
+    font-weight:bolder;
+    font-style: italic;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.temples {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.articleClass {
+    border: thin solid rgb(160, 142, 88);
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#pic{
+    width: 500px;
+    border: thick solid rgb(160, 142, 88);
+    float: left;
+}
+
+#pic img {
+    width: 500px;  
+}
+
 
 footer {
     float: left;
