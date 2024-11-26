@@ -5,9 +5,10 @@ body {
     text-align: center;
 }
 
-
-main {
-    text-align: left;
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: xx-large;
 }
 
 p a {
@@ -66,6 +67,11 @@ caption {
     margin-top: 30px;
 }
 
+iframe {
+    border: solid thick rgb(160, 142, 88);
+    border-radius: 30px;
+}
+
 .tableClass {
     margin: 10px auto;
     width: 80%;
@@ -102,3 +108,15 @@ caption {
     color: rgb(93, 220, 242);
     text-decoration: underline;
 }
+
+.clear{
+    clear:both;
+}
+
+footer {
+    float: left;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+
