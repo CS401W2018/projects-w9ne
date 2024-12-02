@@ -214,4 +214,9 @@ input[type = 'submit'] {
     .spacer{
         text-align: left;
     }
+
+    input:not([type='submit']), select, textarea {
+        padding: 10px;
+    }
+
 }

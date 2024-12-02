@@ -3,7 +3,7 @@ document.getElementById('meetMeForm').addEventListener('submit', function (event
 
     const email = document.getElementById('emailInput').value;
     const name = document.getElementById('nameInput').value;
-    const socialMedia = document.getElementById('socialLinks').value;
+    const socialMedia = document.getElementById('socialLink').value;
     const telNum = document.getElementById('phoneNumInput').value;
     const contactPref = document.getElementById('contactPrefInput').value;
     const major = document.getElementById('majorInput').value;
