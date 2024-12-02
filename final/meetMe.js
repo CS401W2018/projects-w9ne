@@ -48,10 +48,10 @@ document.getElementById('meetMeForm').addEventListener('submit', function (event
 
     if (comment.length < 10){
         alert('Please input more than 10 words')
-        return
+        return;
     } else if (comment.length > 50){
         alert('Word limit exceeded')
-        return
+        return;
     }
     
 
