@@ -60,12 +60,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 750px) {
-    nav {
-        flex-direction: column;
-    }
-}
-
 caption {
     font-size: large;
     font-weight: bolder;
@@ -143,11 +137,81 @@ iframe {
     width: 500px;  
 }
 
-
 footer {
     float: left;
     font-style: italic;
     margin: 10px 0;
 }
 
+legend {
+    padding: 10px;
+    font-size: larger;
+    border-radius: 30px;
+    background-color:rgb(160, 142, 88);
+    color:rgb(21, 30, 57);
+}
 
+fieldset {
+    border: thin solid white;
+    border-radius: 30px;
+}
+
+fieldset h3 {
+    border: solid thin;
+    background-color:rgb(160, 142, 88);
+    color:rgb(21, 30, 57);
+    padding: 10px;
+    font-size: larger;
+    border-radius: 30px;
+}
+
+.form-row, .check-row{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.form-row label {
+    width: 100px;
+    text-align: right;
+}
+
+input:not([type='submit']), select, textarea {
+    font-size: 1em;
+    border-radius: 5px;
+    border: solid thin rgb(160, 142, 88);
+    background-color: rgb(255, 255, 255);
+}
+
+input:not([type='submit']):focus, select:focus, textarea:focus {
+    background-color: rgb(255, 255, 255);
+}
+
+input[type = 'submit'] {
+    background-color: rgb(160, 142, 88);
+    padding: 5px 20px;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    border: solid thin rgb(160, 142, 88);
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .form-row, .check-row{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .form-row label{
+        text-align: left;
+    }
+
+    .spacer{
+        text-align: left;
+    }
+}

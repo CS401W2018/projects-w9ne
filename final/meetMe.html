@@ -19,7 +19,73 @@
         <a href="about.html">About Me</a>
     </nav>
     <main>
+        <form action="processing.html" method="post" id="meetMeForm">
+            <fieldset>
+                <legend>Let's do something together!</legend>
 
+                <h3>So I can contact you...</h3>
+                <div class="form-row">
+                    <label for="nameInput">Name:</label>
+                    <input type="name" name="fullName" id="nameInput" placeholder="Enter Name">
+                </div>
+
+                <div class="form-row">
+                    <label for="emailInput">Email:</label>
+                    <input type="email" name="email" id="emailInput" placeholder="Enter Email">
+                </div>
+
+                <div class="form-row">
+                    <label for="socialMediaInput">Social Platforms:</label>
+                    <input type="url" name="socialLinks" id="socialLink" placeholder="Insert Social Media Link">
+                </div>
+
+                <div class="form-row">
+                    <label for="phoneNumberInput">Phone Number:</label>
+                    <input type="tel" name="phoneNumber" id="phoneNumInput" placeholder="(00)12-345-678">
+                </div>
+
+                <div class="form-row">
+                    <label for="contactPreference">How would you like to be contacted:</label>
+                    <select name="contactPref" id="contactPrefInput">
+                        <option value="email">Email</option>
+                        <option value="phone">Voice Calls</option>
+                        <option value="socialMedia">Social Media</option>
+                        <option value="text">Text Messaging</option>
+                    </select>
+                </div>
+
+                <h3>Tell me about yourself...</h3>
+                <div class="form-row">
+                    <label for="majorInput">Major:</label>
+                    <input type="text" id="majorInput" name="majorInput" placeholder="eg. Computer Science">
+                </div>
+
+                <div class="form-row">
+                    <label for="country">Where are you from:</label>
+                    <input type="text" id="countryInput" name="country" placeholder="eg. Japan">
+                </div>
+
+                <div class="form-row">
+                    <label for="yearInSchool">Year in School:</label>
+                    <select name="yearInput" id="yearInput">
+                        <option value="freshman">Freshman</option>
+                        <option value="sophmore">Sophmore</option>
+                        <option value="junior">Junior</option>
+                        <option value="senior">Senior</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="commentInput">Anything else I missed?</label>
+                    <textarea id="commentInput" name="comment" placeholder="Tell me about yourself..."></textarea>
+                </div>
+
+                <div class="form-row">
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
     </main>
+    <script src="meetMe.js"></script>
 </body>
 </html>
