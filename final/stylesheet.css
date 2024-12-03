@@ -51,6 +51,9 @@ header {
     border: solid thin white;
     margin-left: 25px;
     width: 200px;
+    padding: 15px;
+    font-weight: lighter;
+    font-size: small;
 }
 
 .container {
