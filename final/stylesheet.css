@@ -62,6 +62,7 @@ header {
 
 .singleArticle img {
     width: 150px;
+    height: 150px;
     border: solid thick rgb(160, 142, 88);
     border-radius: 30px;
 }
