@@ -41,6 +41,8 @@ header {
 
 .leftSide img {
     width: 200px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .articlePhoto {grid-area: main;}
