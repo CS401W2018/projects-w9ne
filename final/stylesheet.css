@@ -5,15 +5,59 @@ body {
     text-align: center;
 }
 
+header {
+    grid-area: header;
+}
+
 .classLayout {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-areas: 
     "header header header header"
     "Nav Nav Nav Nav"
     "leftCol main main main"
     "footer footer footer footer"
 }
+
+.leftSide {
+    grid-area: leftCol;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    border: thin solid white;
+    padding: 10px;
+}
+
+.leftSide h3 {
+    color:rgb(160, 142, 88);
+    text-decoration: underline;
+}
+
+.leftSide p {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.leftSide img {
+    width: 200px;
+}
+
+.articlePhoto {grid-area: main;}
+
+.singleArticle {
+    border: solid thin white;
+    margin-left: 25px;
+    width: 200px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+    margin-top: 30px;
+}
+
 
 h2 {
     text-decoration: underline;
@@ -33,6 +77,7 @@ p a:hover {
 
 nav {
     display: flex;
+    grid-area: Nav;
     background-color: rgb(21, 30, 57);
     justify-content: space-around;
     border: solid;
@@ -72,14 +117,8 @@ caption {
     margin-top: 30px;
 }
 
-#videoWidth {
-    width: 500px;
-}
-
-iframe {
-    border: solid thick rgb(160, 142, 88);
-    border-radius: 30px;
-}
+#videoWidth {width: 500px;}
+iframe {border: solid thick rgb(160, 142, 88); border-radius: 30px;}
 
 .tableClass thead {
     font-size: large;
@@ -232,6 +271,10 @@ input[type = 'submit'] {
 
     #videoWidth {
         width: 100%;
+    }
+
+    .leftSide {
+        grid-area: footer;
     }
 
 }
