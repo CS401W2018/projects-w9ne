@@ -58,6 +58,7 @@ nav a:hover {
 
 .currentPage {
     text-decoration: underline;
+    color: rgb(248, 204, 70);
 }
 
 caption {
@@ -190,10 +191,10 @@ input:not([type='submit']):focus, select:focus, textarea:focus {
 input[type = 'submit'] {
     background-color: rgb(160, 142, 88);
     padding: 5px 20px;
-    color: white;
+    color: rgb(21, 30, 57);
     font-size: large;
     font-weight: bolder;
-    border: solid thin rgb(160, 142, 88);
+    border: solid thin rgb(229, 255, 0);
     border-radius: 5px;
 }
 
@@ -217,6 +218,10 @@ input[type = 'submit'] {
 
     input:not([type='submit']), select, textarea {
         padding: 10px;
+    }
+
+    iframe {
+        width: 500px;
     }
 
 }
