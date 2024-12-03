@@ -32,9 +32,9 @@ p a:hover {
 }
 
 nav {
+    display: flex;
     background-color: rgb(21, 30, 57);
     justify-content: space-around;
-    display: flex;
     border: solid;
     border-radius:30px;
     border-color: rgb(45, 66, 132);
@@ -72,6 +72,10 @@ caption {
     margin-top: 30px;
 }
 
+#videoWidth {
+    width: 500px;
+}
+
 iframe {
     border: solid thick rgb(160, 142, 88);
     border-radius: 30px;
@@ -102,6 +106,11 @@ iframe {
 .tableClass a:hover {
     color: rgb(93, 220, 242);
     text-decoration: underline;
+}
+
+.tableCenter {
+    display: flex;
+    flex-direction: column;
 }
 
 .clear{
@@ -153,7 +162,8 @@ legend {
 }
 
 fieldset {
-    border: thin solid white;
+    border: thin solid rgb(45, 66, 132);
+    background-color: rgb(20, 29, 56);
     border-radius: 30px;
 }
 
@@ -220,8 +230,8 @@ input[type = 'submit'] {
         padding: 10px;
     }
 
-    iframe {
-        width: 500px;
+    #videoWidth {
+        width: 100%;
     }
 
 }
