@@ -26,6 +26,7 @@ header {
     display: flex;
     flex-direction: column;
     border: thin solid white;
+    border-radius: 30px;
     padding: 10px;
 }
 
@@ -44,18 +45,38 @@ header {
     width: 200px;
     text-align: center;
     margin: 0 auto;
+    border-radius: 30px;
 }
 
-.articlePhoto {grid-area: main;}
+.articlePhoto { grid-area: main;}
 
 .singleArticle {
     border: solid thin white;
+    border-radius: 30px;
     margin-left: 25px;
     width: 200px;
     padding: 15px;
     font-weight: lighter;
     font-size: small;
 }
+
+.singleArticle img {
+    width: 150px;
+    border: solid thick rgb(160, 142, 88);
+    border-radius: 30px;
+}
+
+.singleArticle p {font-style: italic; font-size: medium;}
+
+.singleArticle h4 {
+    background-color: rgb(160, 142, 88);
+    border-radius: 30px;
+    color: rgb(21, 30, 57);
+    font-size: larger;
+    padding: 5px;
+}
+
+.singleArticle figure {margin: auto;}
 
 .container {
     display: flex;
@@ -282,5 +303,4 @@ input[type = 'submit'] {
     .leftSide {
         grid-area: footer;
     }
-
 }
