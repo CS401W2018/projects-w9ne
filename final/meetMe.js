@@ -63,7 +63,7 @@ document.getElementById('meetMeForm').addEventListener('submit', function (event
         if (xhr.readyState === 4 && xhr.status === 200) {
             const response = JSON.parse(xhr.responseText)
             document.getElementById("message").innerHTML = response.message;
-            document.getElementById("jaredForms").innerHTML = "";
+            document.getElementById("meetMeForm").innerHTML = "";
         } else if (xhr.readyState === 4) {
             alert('Error submitting form.');
         }
