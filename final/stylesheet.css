@@ -77,6 +77,11 @@ header {
     padding: 5px;
 }
 
+.singleArticle li {
+    text-align: left;
+    font-size: larger;
+}
+
 .singleArticle figure {margin: auto;}
 
 .container {
@@ -215,9 +220,10 @@ iframe {border: solid thick rgb(160, 142, 88); border-radius: 30px;}
 }
 
 footer {
-    float: left;
-    font-style: italic;
-    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(160, 142, 88);
+    padding: 20px;
 }
 
 legend {
@@ -304,4 +310,17 @@ input[type = 'submit'] {
     .leftSide {
         grid-area: footer;
     }
+
+    .container {
+        display: block;
+        margin: 0px;
+    }
+
+    .singleArticle {
+        display: flex;
+        flex-flow: column;
+        margin: auto;
+        margin-top: 15px ;
+    }
+
 }
