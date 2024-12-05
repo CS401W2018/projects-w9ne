@@ -206,26 +206,44 @@ iframe {border: solid thick rgb(160, 142, 88); border-radius: 30px;}
     clear:both;
 }
 
-.mainP {
-    font-size: larger;
-    font-weight:bolder;
-    font-style: italic;
-    margin-right: 10px;
-    padding: 10px;
-}
-
-.temples {
+.containerAbout {
     display: flex;
-    flex-direction: column;
-    float: left;
+    border: solid thin rgb(160, 142, 88);;
+    flex-flow: row wrap;
+    gap: 30px;
+    margin-top: 20px;
 }
 
-.articleClass {
-    border: thin solid rgb(160, 142, 88);
-    font-style: italic;
+.articleAbout {
+    margin-left: 25px;
+    width: 400px;
+    padding: 10px;
     font-weight: bolder;
-} 
+    font-size: small;
+}
 
+.articleAbout p {
+    font-size: larger;
+}
+
+.articleAbout img {
+    width: 350px;
+    height: 350px;
+    margin: auto 0;
+    border-radius:30px;
+    border: solid thick rgb(160, 142, 88);
+}
+
+.articleAbout figure {margin: auto;}
+
+.articleAbout figcaption {
+    font-size: larger;
+    background-color:rgb(160, 142, 88);
+    border-radius: 30px;
+    color: rgb(20, 29, 56);
+    width: 20%;
+    margin: auto;
+}
 footer {
     display: flex;
     justify-content: space-around;
@@ -288,7 +306,17 @@ input[type = 'submit'] {
     border-radius: 5px;
 }
 
-@media only screen and (max-width: 500px) {
+li a {
+    color: rgb(160, 142, 88);
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgb(93, 220, 242);
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 550px) {
     nav {
         flex-direction: column;
     }
@@ -321,6 +349,18 @@ input[type = 'submit'] {
     .container {
         display: block;
         margin: 0px;
+    }
+
+    .containerAbout {
+        display: block;
+        margin: 0px;
+    }
+
+    .articleAbout {
+        display: flex;
+        flex-flow: column;
+        margin: auto;
+        margin-top: 15px ;
     }
 
     .singleArticle {
